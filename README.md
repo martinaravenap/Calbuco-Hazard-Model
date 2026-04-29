@@ -35,11 +35,11 @@ Se utilizó un Modelo Digital de Elevación (DEM) de 12.5m de resolución. El pr
 - **Depresión de Sumideros (Sink Filling)**: Eliminación de imperfecciones topográficas para asegurar un flujo continuo.
 - **Cálculo de Flujo**: Determinación de la dirección de drenaje y acumulación acumulada para identificar los ejes de los lahares.
 
-### 2. Integración de la Rugosidad de Manning ($n$)
+### 2. Integración de la Rugosidad de Manning (n)
 Para dar realismo físico, se asignaron coeficientes de fricción basados en la geomorfología:
-- **Zonas Altas ($n=0.03$)**: Flujo rápido sobre roca desnuda.
-- **Zonas Medias ($n=0.05$)**: Resistencia moderada por matorrales y depósitos antiguos.
-- **Zonas Bajas ($n=0.10$)**: Alta resistencia por bosque nativo y llanuras aluviales.
+- **Zonas Altas (n=0.03)**: Flujo rápido sobre roca desnuda.
+- **Zonas Medias (n=0.05)**: Resistencia moderada por matorrales y depósitos antiguos.
+- **Zonas Bajas (n=0.10)**: Alta resistencia por bosque nativo y llanuras aluviales.
 
 ### 3. Índice Combinado de Peligro (ICP)
 El riesgo se calculó mediante la integración de la energía cinética (pendiente) y la masa potencial (acumulación), normalizada por el coeficiente de resistencia.
