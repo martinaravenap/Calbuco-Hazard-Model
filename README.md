@@ -7,6 +7,11 @@
   <img src="outputs/simulacion.gif" width="80%" alt="Simulación Volcán Calbuco">
 </p>
 
+### 💻 Implementación en VS Code
+<p align="center">
+  <img src="outputs/vscode.gif" width="100%" alt="Demostración de código en VS Code">
+</p>
+
 
 # Modelamiento Geoespacial de Riesgo por Lahares: Volcán Calbuco
 ![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
