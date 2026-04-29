@@ -1,8 +1,8 @@
 <p align="center">
   <img src="img/banner.jpg" width="100%" alt="Banner Proyecto Calbuco">
 </p>
-## Modelamiento Geoespacial de Riesgo por Lahares: Volcán Calbuco##
 
+# Modelamiento Geoespacial de Riesgo por Lahares: Volcán Calbuco
 ![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
 ![Status](https://img.shields.io/badge/Status-Finalizado-green.svg)
 ![Area](https://img.shields.io/badge/Análisis-Geomorfológico-orange.svg)
@@ -48,3 +48,7 @@ El riesgo se calculó mediante la integración de la energía cinética (pendien
 ├── scripts/            # Código fuente en Python
 ├── output/             # Mapas generados (PNG/HTML)
 └── requirements.txt    # Librerías necesarias para replicar el estudio
+
+Fase 1: Datos y Preparación
+Demostraremos que el proyecto se basa en datos topográficos reales y precisos.
+Imagen 2 (El "Lienzo" Topográfico - DEM): Una captura del Modelo Digital de Elevación (DEM) original (.tif) que descargaste de la NASA. Se verá como una imagen en escala de grises donde lo blanco es más alto y lo negro más ba
