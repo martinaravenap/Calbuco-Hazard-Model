@@ -1,6 +1,12 @@
 <p align="center">
-  <img src="img/banner.jpg" width="100%" alt="Banner Proyecto Calbuco">
+  <img src="outputs/banner.jpg" width="100%" alt="Banner Proyecto Calbuco">
+
+
+###  Simulación de Flujo de Lahar
+<p align="center">
+  <img src="outputs/simulacion.gif" width="80%" alt="Simulación Volcán Calbuco">
 </p>
+
 
 # Modelamiento Geoespacial de Riesgo por Lahares: Volcán Calbuco
 ![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
@@ -33,22 +39,18 @@ Para dar realismo físico, se asignaron coeficientes de fricción basados en la 
 ### 3. Índice Combinado de Peligro (ICP)
 El riesgo se calculó mediante la integración de la energía cinética (pendiente) y la masa potencial (acumulación), normalizada por el coeficiente de resistencia.
 
-## 📊 Resultados Técnicos
+##  Resultados Técnicos
 - **Zonificación de Riesgo Extremo**: Se delimitaron **3.03 km²** de afectación crítica inmediata.
 - **Validación Territorial**: El modelo identifica con éxito las quebradas naturales que desembocan hacia el Lago Llanquihue, amenazando rutas de conectividad regional.
 
-## 🛠️ Stack Tecnológico
+##  Stack Tecnológico
 - **Análisis de Datos**: `Numpy`, `Rasterio`
 - **Modelado Hidrológico**: `Pysheds`
 - **Visualización Cartográfica**: `Matplotlib`, `Folium` (Mapas base de ESRI World Imagery y OpenStreetMap).
 
-## 📁 Estructura del Repositorio
+##  Estructura del Repositorio
 ```text
 ├── data/               # Modelos Digitales de Elevación (.tif)
 ├── scripts/            # Código fuente en Python
 ├── output/             # Mapas generados (PNG/HTML)
 └── requirements.txt    # Librerías necesarias para replicar el estudio
-
-Fase 1: Datos y Preparación
-Demostraremos que el proyecto se basa en datos topográficos reales y precisos.
-Imagen 2 (El "Lienzo" Topográfico - DEM): Una captura del Modelo Digital de Elevación (DEM) original (.tif) que descargaste de la NASA. Se verá como una imagen en escala de grises donde lo blanco es más alto y lo negro más ba
